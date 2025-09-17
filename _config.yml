@@ -8,3 +8,8 @@ plugins:
 scholar:
   # style: modern-language-association
   bibliography_template: bib
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
