@@ -21,10 +21,13 @@ layout: default
     <div class='wrap article'>
         {{ content }}
     </div>
-    <!-- <div id='bibliography'> -->
-        <!-- <div class='wrap'> -->
+    
+     <!-- add a logic to only show if there is citation in a post -->
+    <div id='bibliography'>
+        <div class='wrap'> 
              <!-- <p>References:</p> -->
-            <!-- {% bibliography --cited %} -->
-        <!-- </div> -->
-    <!-- </div> -->
+            {% bibliography --cited %}
+        </div>
+    </div>
+
 </div>
