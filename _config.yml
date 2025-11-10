@@ -1,0 +1,15 @@
+# url: https://joshi98kishan.github.io
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll/scholar
+
+scholar:
+  # style: modern-language-association
+  bibliography_template: bib
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
