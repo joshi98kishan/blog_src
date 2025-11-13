@@ -4,7 +4,9 @@ layout: post
 subtitle: A ramp which takes you from having school-level LA knowledge to mastery of LA required for ML.
 ---
 
-<span style="color: blue;">***Note:-** This blog is under active development. I am currently reading a book titled "Linear Algebra" by Cherney et al. I will be editing this blog as my understanding about linear algebra grows. I will remove this note once I feel this blog is complete.*</span>
+<span style="color: blue;">***Note:-** This is only the first draft of this blog, I plan to add more to it.*</span>
+
+<!-- I am currently reading a book titled "Linear Algebra" by Cherney et al. I will be editing this blog as my understanding about linear algebra grows. I will remove this note once I feel this blog is complete. -->
 
 ### Context
 *If you haven't read previous blogs, here is some context:*
@@ -63,4 +65,4 @@ What I currently think is that even the concept of “vector” stems from the c
 
 So, “linear function” is the spirit of LA, or it is the root concept of LA which defines LA. From “linear function”, all the concepts of LA originate but in the form of a tree data structure. That is, there are some concepts, namely "vector”, “vector space” and “matrix”, which directly originate from the root and hence are at the first level of depth from the root. A vector is nothing but the input or output of a linear function. A vector space is nothing but the space of all possible inputs or the space of all possible outputs. And a matrix is one way to represent a linear function, or it is a way to represent a collection of vectors.
 
-Then from the first level, concepts originate which are at the second level of depth from the root. Concepts at this second level are eigenvector, eigenvalue, determinant, SVD, PCA and all other concepts of linear algebra.
+Then from the first level, concepts originate which are at the second level of depth from the root. Concepts at this second level are eigenvector, eigenvalue, determinant, SVD, PCA and all other concepts of LA.

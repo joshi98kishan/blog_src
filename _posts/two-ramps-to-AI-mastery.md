@@ -37,6 +37,8 @@ Going over a gentle ramp is as simple as walking over it. In the same spirit, ev
 
 Also mention that I will be writing these blogs in **iteration**.
 
+And about "intuition" and "first principles" thinking.
+
 
 ### About AI Literature
 
