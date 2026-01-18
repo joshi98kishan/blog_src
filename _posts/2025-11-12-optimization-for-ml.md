@@ -4,7 +4,6 @@ layout: post
 subtitle: Importance of optimization for ML
 ---
 
-<span style="color: blue;">_**Note:-** This blog is under active development. I am currently reading a book, “Algorithms for Optimization” by Mykel J. Kochenderfer and Tim A. Wheeler. This book is freely available [here](https://algorithmsbook.com/optimization/){:target="*blank"}._</span>
 
 ### Introduction
 
