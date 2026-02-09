@@ -4,6 +4,8 @@ layout: post
 subtitle: Importance of optimization for ML
 ---
 
+<span style="color: blue;">***Note:-** This is only the first draft of this blog.*</span>
+
 
 ### Introduction
 

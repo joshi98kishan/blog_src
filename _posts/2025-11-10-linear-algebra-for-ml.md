@@ -4,7 +4,7 @@ layout: post
 subtitle: A ramp which takes you from having school-level LA knowledge to mastery of LA required for ML.
 ---
 
-<span style="color: blue;">***Note:-** This is only the first draft of this blog, I plan to add more to it.*</span>
+<span style="color: blue;">***Note:-** This is only the first draft of this blog.*</span>
 
 <!-- I am currently reading a book titled "Linear Algebra" by Cherney et al. I will be editing this blog as my understanding about linear algebra grows. I will remove this note once I feel this blog is complete. -->
 
