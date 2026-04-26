@@ -9,7 +9,7 @@ This has always bugged me that how image classification data is non-linear or no
 
 ### Linear Classifier
 
-given a sample: $$y$$, $$[x_1, x_2, ...., x_k]$$, linear classifier first calculates this
+Given a sample: $$y$$, $$[x_1, x_2, ...., x_k]$$, linear classifier first calculates this
 
 $$z = w_1x_1 + w_2x_2 + ..... + w_kx_k + b$$
 
@@ -21,25 +21,25 @@ else        predict $$0$$
 Linear classifier assigns weights to each feature. Then z is calculated via weighted sum of features and then bias is added to that weighted sum to calculate z.
 z is a summation of k+1 real numbers. Classification is done on the basis of the sign of z. 
 
-Now lets understand linear classifier via a feature space where each axis corresponds to each feature. Moving in the feature space corresponds to moving along multiple axes, each with different distances. Distance along a axis is the value of the corresponding feature. 
+Lets understand linear classifier via a feature space where each axis corresponds to each feature. Moving in the feature space corresponds to moving along multiple axes, each with different distances. Distance along a axis is the value of the corresponding feature. 
 
 A linear classifier divides this space in two halves (here we do not care whether these halves are equal or not). Each half corresponds to a class, i.e., a point in one half corresponds to a class and a point in other half corresponds to another class. 
 
 One important defining characteristic of the linear classifier is that these halves are contiguous. Lets understand it. You pick a axis $$i$$. Move from one end of this axis (-infinity) to another end (+infinity) while fixing the position in the other axes. [add example of such movement in 2d space. Fixing y and moving "parallel" to x axis]
 
 Initially, the point is in one of the half. As movement continues, there comes a "boundary point" beyond which other half begins which then continues to positive infinity. 
-z in this case becomes this:
+z in this case is the function of single variable:
 
-$$z = m*x + c$$
+$$z = w_ix_i + c$$
 
-where m is the weight of the picked feature and c is determined by fixed positions in other axes, their corresponding weights, and the bias term. Continuity of the half can be understood easily from this equation of line. Sign of z determines the half. Initially z is continouly of a particular sign then after the border point x=(-c/m), sign of z changes and remains same for the rest of the movement. This is true for any axis you pick for moving across.
+$$c$$ is determined by fixed positions in other axes, their corresponding weights, and the bias term. Continuity of the half can be understood easily from this equation of line. Sign of $$z$$ determines the half. Initially $$z$$ is continuously of a particular sign then after the border point $$x_i=(-c/w_i)$$, sign of $$z$$ changes and remains same for the rest of the movement. This is true for any axis you pick for moving across.
 
 Given a picked feature, sign of the weight of that feature determines whether one is moving from negative class to positive class or vice versa. If that weight is positive then one is moving from negative class to positive class. Which is obvious because initial value is negative infinity and final value is postive infinity.
 
 [this para may not be needed]
 One another defining property of a linear classifier is that it "fixes" the direction of movement for a given feature, which depends on the sign of weight. Which means that for a given feature and the sign of its weight, large enough and small enough values of this weight corresponds to each class.
 
-Having said this. Let understand a linear classifier in one more way. Start with a sample of one of the half of the linear classifier. Now change the features of this sample such that one moves towards the other half. Whether to increase a feature or decrease a feature depends on its weights and the current half. If one is moving from negative half to postive half, then you need to increase features with positive weights and decrease the features with negative weights. 
+Having said this. Let understand a linear classifier in one more way. Start with a point of one of the half of the linear classifier. Now change the features of this sample such that one moves towards the other half. Whether to increase a feature or decrease a feature depends on its weights and the current half. If one is moving from negative half to postive half, then you need to increase features with positive weights and decrease the features with negative weights. 
 
 For positive half, positive features are relatively bigger than negative features. And vice versa for negative half.  
 

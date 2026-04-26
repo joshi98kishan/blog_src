@@ -1,7 +1,7 @@
 ---
 title: Setting The Tone
 layout: post
-subtitle: About why I started the blog.
+subtitle: About why I started this blog site.
 ---
 
 <span style="color: red;">_This blog is UNDER PROGRESS. I have overspent the time for writing this blog. And now I feel like I should first work on some more important blogs, and then I will continue this not-so-important blog. The first and last parts are almost complete. You will find grey-coloured text that is either redundant or contains ideas which I am yet to integrate with the main text. And also you will find silly grammatical mistakes because of two reasons. First, I am still learning English. Second, the mistakes which I could have avoided but still committed because I wanted to write fast and hence avoided conscious grammar checking. Later, when I continue working on this blog, I will have to use a grammar checker tool for unavoidable mistakes._</span>
