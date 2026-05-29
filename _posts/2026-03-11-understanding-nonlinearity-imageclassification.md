@@ -4,6 +4,10 @@ layout: post
 subtitle: Trying to understand why image classification data is non-linear.
 ---
 
+<!-- New Explanation for this topic is at the end of this blog in draft folder - "2026-03-05-understanding-linearity-nonLinearity" -->
+<span style="color: blue;">***Note:-** Incomplete blog. May complete it at some time in the future.*</span>
+
+
 ### Introduction
 This has always bugged me that how image classification data is non-linear or not linearly separable. To understand this, we need to first understand the linear classifier.
 
